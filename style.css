@@ -86,9 +86,7 @@ a {
 	outline: #777;
 	border-left: none;
 	font-size: 2rem;
-
 	background-color: #f7f7f7;
-
 	padding: 0.8rem 2rem;
 }
 
@@ -112,6 +110,7 @@ main {
 	padding-left: 3rem;
 	display: flex;
 }
+
 article {
 	width: 67%;
 }
@@ -149,8 +148,8 @@ h2 {
 
 .video-stats p {
 	font-size: 1.6rem;
-	color: darkgray;
-	font-weight: rgb(96, 96, 96);
+	color: rgb(96, 96, 96);
+	font-weight: 300;
 	margin-top: 1rem;
 }
 
@@ -164,6 +163,10 @@ h2 {
 	margin-right: 2rem;
 	font-size: 1.5rem;
 	font-weight: 500;
+}
+
+.video-creator a {
+	text-decoration: none;
 }
 
 .nav-video i {
@@ -211,10 +214,6 @@ h2 {
 .published {
 	font-size: 1.2rem;
 	font-weight: 300;
-}
-
-.video-creator a {
-	text-decoration: none;
 }
 
 h3 {
@@ -275,10 +274,6 @@ aside {
 	font-weight: 400;
 	color: darkgray;
 	margin: 0.5rem 0;
-}
-
-aside {
-	margin-left: 2rem;
 }
 
 .video__controls {
