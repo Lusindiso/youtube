@@ -127,9 +127,11 @@ header {
 h1 {
 	font-weight: 300;
 }
+
 h2 {
 	margin-bottom: 4rem;
 }
+
 .video {
 	position: relative;
 	padding-bottom: 50%;
